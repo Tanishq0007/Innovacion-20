@@ -1,0 +1,129 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Particle.js */
+.top{
+    position: absolute;
+    font-size: 2em;
+    left: 17%;
+    top: 30%;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f76f21 !important;
+    border-color: #f76f21 !important;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #fa931a !important;
+    border-color: #fa931a !important;
+}
+
+#particles-js{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url("Poster/back1.png");
+    background-size: cover; */
+    background-color: black;
+    height: 100vh;
+    z-index: -1 !important;
+}
+#particles-js p, h1{
+    color: white;
+}
+
+
+/* Navigation Style */
+.navbar-nav .nav-item .nav-link:hover{
+    border-radius: 5px;
+    background-color:#f76f21;
+    color: black;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #f76f21;
+}
+.navbar-brand {
+    font-weight: 500;
+    font-size: 2em;
+    color: #f76f21 !important;
+    text-decoration: none !important;
+}
+.bg{
+    background-color: black;
+}
+.dropdown-menu{
+    background-color: transparent !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    border-radius: 5px;
+    background-color:#f76f21;
+    color: black;
+}
+.dropdown-menu .dropdown-item{
+    color: #f76f21;
+}
+.navbar-toggler{
+    border: none;
+    color: white;
+    border: 2px solid #f76f21 !important;
+    border-radius: 5px;
+    outline: none !important;
+}
+/* Image and about section */
+.inovacion{
+    width: 100%;
+    height: auto;
+    animation: up 2s ease-in-out infinite;
+}
+@keyframes up{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Gallery */
+.effect{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    transition: 0.5s;
+}
+.effect p{
+    opacity: 0;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+.effect:hover{
+    background-size: 110%;
+}
+.effect p:hover{
+    opacity: 1;
+    color: black;
+}
+
+/* Footer */
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.links a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.links{
+    list-style: none;
+}
